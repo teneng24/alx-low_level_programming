@@ -1,21 +1,22 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: Always 0 (Success)
+ * resulut - Always 0 (Success)
  */
 int main(void)
 {
-	int a;
-	long int b;
-	long long int c;
-	char d;
-	float f;
+	char a = 'A';
+	int b = 120;
+	float c = 123.0f;
+	double d = 1222.90;
+	char str[] = "Hello";
 
-	printf("Size of Char: %li byte(s)\n", (unsigned long)sizeof(d));
-	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
-	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
-	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
-	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
-	return (0);
+printf("\nSize of a: %ld", sizeof(a));
+printf("\nSize of b: %ld", sizeof(b));
+printf("\nSize of c: %ld", sizeof(c));
+printf("\nSize of d: %ld", sizeof(d));
+printf("\nSize of str: %ld", sizeof(str));
+return (0);
 }
+
