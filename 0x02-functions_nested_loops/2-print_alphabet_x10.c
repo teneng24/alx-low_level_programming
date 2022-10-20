@@ -10,8 +10,7 @@ char i;
 int lower = 0;
 while (lower++ <= 9)
 {
-for (i = 'a'; i <= 'z'; i++)
-
+for (i = 'a'; i <= 'z';| i++)
 _putchar(lower);
 _putchar('\n');
 }
