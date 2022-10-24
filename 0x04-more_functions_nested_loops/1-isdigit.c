@@ -3,13 +3,19 @@
 /**
  * _isdigit - checks for characters that are digits
  * @c: character 
- * Return: 0 or 1
+ * Return: 1 if c is a digit or 0 otherwise
  */
 int _isdigit(int c)
 {
-if (c >= '0' && c <= '9')
-return (1);
-else
-return (0);
-}eturn (0);
+char i = '0';
+int isdigit = 0;
+for (; i <= '9'; i++)
+{
+if (i == c)
+{
+isdigit = 1;
+break;
+}
+}
+return (isdigit);
 }
