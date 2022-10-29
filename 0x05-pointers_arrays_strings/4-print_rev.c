@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * main - check the code for Holberton School students.
- * Return: Always 0.
+ * print_rev - a function that prints a string, in reverse,
+ * followed by a new line.
+ * @s: an input string
+ * Return: Nothing
  */
 void print_rev(char *s)
 {
@@ -12,5 +14,3 @@ while (len)
 _putchar(s[--len]);
 _putchar('\n');
 }
-
-
