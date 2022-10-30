@@ -1,4 +1,5 @@
 #include "main"
+#include <stdio.h>
 /**
  * string_toupper - fonction toupper
  * @a: pointer
